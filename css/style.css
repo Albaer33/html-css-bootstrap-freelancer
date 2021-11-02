@@ -16,7 +16,7 @@ img {
     background-color: #1abc9c;
 }
 .single-section {
-    padding: 40px;
+    padding: 40px 0;
     text-align: center;
 }
 /* HEADER */
@@ -47,7 +47,7 @@ main li {
     display: inline-block;
 }
 .imgdiv {
-    width: 30%;
+    width: 50%;
     margin: auto;
 }
 /* portfolio part */
