@@ -72,6 +72,10 @@ main li {
     text-align: left;
 }
 /* contact part */
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+}
 .btn_green {
     color: white;
     background-color: #1abc9c;
