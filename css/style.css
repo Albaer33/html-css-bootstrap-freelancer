@@ -4,8 +4,12 @@ ul {
     padding: 0;
     margin: 0;
 }
-.ms_container {
+.container_70 {
     width: 70%;
+    margin: auto;
+}
+.container_50 {
+    width: 50%;
     margin: auto;
 }
 img {
@@ -17,6 +21,8 @@ img {
 }
 .single-section {
     padding: 40px 0;
+}
+.centered {
     text-align: center;
 }
 /* HEADER */
@@ -34,6 +40,7 @@ header span {
 }
 header li {
     display: inline-block;
+    padding: 0 10px;
 }
 .burgher, .menu {
     text-align: right;
@@ -50,19 +57,24 @@ main li {
     width: 50%;
     margin: auto;
 }
+@media screen and (max-width: 576px) {
+    .jobs {
+        font-size: 12px;
+    }
+}
 /* portfolio part */
 .img-wrapper {
     overflow: hidden;
     border-radius: 15px;
 }
 /* about part */
-.button {
-    text-decoration: none;
-    display: inline-block;
+.about-text {
+    text-align: left;
+}
+/* contact part */
+.btn_green {
     color: white;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 8px 16px;
+    background-color: #1abc9c;
 }
 /* FOOTER */
 .first-footer {
