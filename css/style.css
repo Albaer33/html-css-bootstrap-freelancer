@@ -41,7 +41,7 @@ img {
     content: "";
     display: inline-block;
     background-color: white;
-    height: 3px;
+    height: 4px;
     width: 50px;
     margin: 10px;
 }
@@ -49,7 +49,7 @@ img {
     content: "";
     display: inline-block;
     background-color: #2c3e50;
-    height: 3px;
+    height: 4px;
     width: 50px;
     margin: 10px;
 }
@@ -109,9 +109,30 @@ input[type=text] {
     background-color: #1abc9c;
 }
 /* FOOTER */
+footer {
+    color: white;
+    font-weight: bold;
+}
 .first-footer {
     background-color: #3a546d;
 }
+.social {
+    display: inline-block;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 22px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.mainlink {
+    text-decoration: none;
+    color: #1abc9c;
+}
 .second-footer {
     background-color: #2c3e50;
+}
+.fa-copyright {
+    font-size: 10px;
 }
