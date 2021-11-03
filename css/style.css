@@ -100,9 +100,10 @@ main li {
     text-align: left;
 }
 /* contact part */
-input[type=text] {
+.form-container input[type=text], .form-container textarea {
     border: none;
     border-bottom: 1px solid lightgrey;
+    padding-bottom: 20px;
 }
 .btn_green {
     color: white;
